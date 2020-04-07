@@ -16,5 +16,5 @@ subroutine data_output(n_out)
         write (6,'(30(E12.4,","))') x_mm, m_chsp(n,1)
     end do
     close(n_file)
-!
+!  write(*,*)hello
 end subroutine
